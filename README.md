@@ -57,11 +57,3 @@
     <img src="https://spotify-recently-played-readme.vercel.app/api?user=3176jmmxkz62r4jjpgnwvjikms54&count=1&unique=true" alt="Spotify recently played"  />
   </a>
 </div>
-
-      - name: push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
